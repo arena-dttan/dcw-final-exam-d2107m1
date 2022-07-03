@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Các meta (siêu dữ liệu) -->
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+    <!-- Tiêu đề hiển thị trên thanh địa chỉ trình duyệt -->
+    <title>Arena Mutimedia</title>
+
+    <!-- icon trên thanh địa chỉ trình duyệt -->
+    <link rel="icon" href="./images/favicon.ico" />
+
+    <!-- Sử dụng font google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+
+    <!-- external css -->
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/menu.css">
+    <style>
+    .text {
+        margin-left: 5px;
+        padding-top: 130px;
+    }
+    #tim-hieu-ngay {
+        font-size: 18px;
+        font-weight: bold;
+        margin-top: 30px;
+        margin-left: 20px;
+        position: absolute;
+        display: block;
+        width: 180px;
+        height: 50px;
+        background: #F8C800;
+        border-radius: 40px;
+        border-color: inherit;
+        border-style: none;
+    }
+    </style>
+</head>
+
+<body>
+
+    <div id="container">
+
+        <!-- id header -->
+        <div id="header">
+            <div id="logo"><img src="./images/logo.webp"></div>
+            <div id="main-menu">
+                <ul class="menu">
+                    <li class="home">
+                        <a href="./index.html"> Home</a>
+                    </li>
+                    <li>
+                        <a href="./gioi-thieu.html"> Giới thiệu</a>
+                    </li>
+                    <li class="dropdown">
+                        <a class="dropdown-btn"> Đào tạo - Tuyển sinh</a>
+                        <div class="dropdown-content">
+                            <a href="./chuong-trinh-dao-tao.html">Đào tạo</a>
+                            <a href="./tuyen-sinh.html">Tuyển sinh</a>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="./gallery.html"> Gallery</a>
+                    </li>
+                    <li>
+                        <a href="./tin-tuc.html"> Tin tức - Sự kiện</a>
+                    </li>
+                    <li>
+                        <a href="./final-exam-list.html">Bài nộp</a>
+                    </li>
+
+                    <li>
+                        <a href="#">Liên hệ</a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+
+        <!-- id main content -->
+        <div id="main-content">
+
+            <div>
+                <img class="text" src="images/head-text.webp">
+            </div>
+            <div>
+                <button id="tim-hieu-ngay"><a style="color: white;" href="./chuong-trinh-dao-tao.html">TÌM HIỂU NGAY</a></button>
+                
+            </div>
+
+        </div>
+
+
+
+    </div>
+</body>
+
+</html>

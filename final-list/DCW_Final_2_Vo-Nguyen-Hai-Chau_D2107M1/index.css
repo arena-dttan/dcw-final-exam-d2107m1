@@ -1,0 +1,166 @@
+/* Sử dụng cho định dạng main menu */
+
+.menu {
+    height: 80px;
+    line-height: 80px;
+}
+
+.home {
+    border-left: 0.01em dotted #00aeef;
+}
+
+ul.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    /* background: #F8C800; */
+    background: #0085be;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 2);
+}
+
+li.menu {
+    float: left;
+    border-right: 0.01em dotted #00aeef;
+    font-size: 18px;
+}
+
+li.dropdown {
+    display: inline-block;
+    min-width: 100px;
+}
+
+li a:hover,
+.dropdown:hover {
+    background: #00aeef;
+}
+li a,
+.dropdown-btn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 0 16px;
+    text-decoration: none;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    /*background: #F8C800;
+    */
+    background: #0085be;
+    min-width: 200px;
+    border-bottom: 0.01em dotted #00aeef;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 2);
+    z-index: 1;
+    top: 80px;
+    transition: all .3s ease-in-out;
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 10px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    line-height: 2;
+}
+
+.dropdown-content a:hover {
+    background: #00aeef;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.slider{
+    height: 800px;
+}
+.hinh1{
+    width: 100%;
+    position: absolute;
+    display: block;
+    margin: 0;
+padding: 0;
+}
+.hinh2{position: relative; display: inline;
+    margin-left:80px ;
+}
+.slider .nut{
+    
+    border-radius: 20px;
+    height: 40px;
+    width: 150px;
+    background-color:rgb(207, 125, 18);
+    margin-left: 150px;
+    margin-top: 30px;
+    text-align: center;
+    line-height: 40px;
+   
+}
+.slider p {
+ z-index: 100;
+}
+.box {
+     width: 1500px;
+     height: 950px;
+     background-color: rgb(0, 0, 0);
+     position: relative;
+     margin: auto;
+     border-radius: 50PX;
+     background-color: aliceblue;
+
+} 
+.hinh3 {
+    width: 500PX;
+    height: 300PX;
+    
+    margin-top: 30px;
+}
+.doan1 {
+    text-align: justify;
+    width: 100%;
+    margin-top: 5px;
+}
+.column-1 {float: left;
+    margin-left: 60px}
+.column-2 {
+
+   float: right;
+    width: 45%; 
+    margin-right: 60px;
+
+}
+h2 {text-align: center;}
+.doan2 {
+    margin-top: 15%;
+}
+.hinh4 {
+    width: 500PX;
+    height: 300PX;
+    margin-top: 30%;}
+.hk2 {
+    padding-top: 40px;
+}    
+.voi-kien-thuc {
+   text-align: justify;
+   width: 85%;
+   margin-left: 110px;
+   font-size: 20px ;
+   margin-top: 40px;
+}
+.mon-hoc {margin-left: 86px;}
+.the1 {
+    width: 30%; 
+}
+.so1 {font-size: 25px;}
+.nut:hover {background-color: rgb(228, 158, 66);}
+.nut {color: aliceblue;}
+
+
+
+
+
+  
+
+

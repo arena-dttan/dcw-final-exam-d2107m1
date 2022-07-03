@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Các meta (siêu dữ liệu) -->
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+    <!-- Tiêu đề hiển thị trên thanh địa chỉ trình duyệt -->
+    <title>Arena Mutimedia</title>
+
+    <!-- icon trên thanh địa chỉ trình duyệt -->
+    <link rel="icon" href="./images/favicon.ico" />
+
+    <!-- Sử dụng font google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+
+    <!-- external css -->
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/menu.css">
+
+    <style>
+        table,
+        td,
+        th {
+            border: 1px solid gray;
+            border-collapse: collapse;
+            padding: 10px 20px;
+            text-align: left;
+            margin-left: 80px;
+            font-weight: 500;
+            font-size: 16px;
+        }
+        
+        th {
+            background: lightgreen;
+        }
+        
+        #main-page a {
+            text-decoration: none;
+            color: blue;
+        }
+        
+        #main-page a:hover {
+            display: block;
+            background: yellow;
+        }
+        
+        #main-page a:visited {
+            color: red;
+        }
+    </style>
+
+
+</head>
+
+<body>
+
+    <div id="container">
+
+        <!-- id header -->
+        <div id="header">
+            <div id="logo">
+                <a href="./index.html" title="Arena Multimedia"><img src="./images/logo.webp"></a>
+            </div>
+            <div id="main-menu">
+                <ul class="menu">
+                    <li class="home">
+                        <a href="./index.html"> Home</a>
+                    </li>
+                    <li>
+                        <a href="./gioi-thieu.html"> Giới thiệu</a>
+                    </li>
+                    <li class="dropdown">
+                        <a class="dropdown-btn"> Đào tạo - Tuyển sinh</a>
+                        <div class="dropdown-content">
+                            <a href="./chuong-trinh-dao-tao.html">Đào tạo</a>
+                            <a href="./tuyen-sinh.html">Tuyển sinh</a>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="./gallery.html"> Gallery</a>
+                    </li>
+                    <li>
+                        <a href="./tin-tuc.html"> Tin tức - Sự kiện</a>
+                    </li>
+                    <li>
+                        <a href="./final-exam-list.html">Bài nộp</a>
+                    </li>
+
+                    <li>
+                        <a href="#">Liên hệ</a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+
+        <!-- id main content -->
+        <div id="main-content">
+
+            <div id="main-page">
+                <h2>Danh sách các bài đã nộp</h2>
+                <table style="width: 80%;">
+                    <thead>
+                        <tr>
+                            <th style="width: 30px;">Stt</th>
+                            <th>Họ và tên</th>
+                            <th>Note</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td><a href="./final-list/DCW_Final_1_Dao-Pham-Phuong-Binh_D2107M1/" target="_blank">Đào Phạm Phương Bình</a></td>
+                            <td>&nbsp;</td>
+                        </tr>
+
+                        <!-- Bạn này bổ sung bày sau -->
+                        <tr>
+                            <td>2</td>
+                            <td><a href="./final-list/DCW_Final_2_Vo-Nguyen-Hai-Chau_D2107M1/" target="_blank">Võ Nguyễn Hải Châu</a></td>
+                            <td>&nbsp;</td>
+                        </tr>
+
+                        <tr>
+                            <td>3</td>
+                            <td><a href="./final-list/DCW_Final_3_Nguyen-Thi-Thu-Ha_D2107M1/" target="_blank">Nguyễn Thị Thu Hà</a></td>
+                            <td>&nbsp;</td>
+                        </tr>
+
+                        <tr>
+                            <td>4</td>
+                            <td><a href="./final-list/DCW_Final_4_Le-Bao-Hoang_D2107M1/" target="_blank">Lê Bảo Hoàng</a></td>
+                            <td>&nbsp;</td>
+                        </tr>
+
+                        <tr>
+                            <td>5</td>
+                            <td><a href="./final-list/DCW_Final_5_Nguyen-Thi-Thu-Huong_D2107M1/" target="_blank">Nguyễn Thị Thu Hương</a></td>
+                            <td>&nbsp;</td>
+                        </tr>
+
+                        <tr>
+                            <td>6</td>
+                            <td><a href="./final-list/DCW_Final_6_Pham-Thi-Ngoc-Huyen_D2107M1/" target="_blank">Phạm Thị Ngọc Huyền</a></td>
+                            <td>&nbsp;</td>
+                        </tr>
+
+                        <tr>
+                            <td>7</td>
+                            <td><a href="./final-list/DCW_Final_7_Nguyen-Vuong-Thuy-Linh_D2107M1/" target="_blank">Nguyễn Vương Thùy Linh</a></td>
+                            <td>&nbsp;</td>
+                        </tr>
+
+                        <tr>
+                            <td>8</td>
+                            <td><a href="#" target="_blank" class="not-final">Đỗ Hà Thảo Ngọc</a></td>
+                            <td>&nbsp;</td>
+                        </tr>
+
+                        <tr>
+                            <td>9</td>
+                            <td><a href="#" target="_blank" class="not-final">Nguyễn Ngọc Phú</a></td>
+                            <td>&nbsp;</td>
+                        </tr>
+
+                        <tr>
+                            <td>10</td>
+                            <td><a href="./final-list/DCW_Final_10_Le-Nguyen-Vinh-Phuc_D2107M1/" target="_blank">Lê Nguyễn Vĩnh Phúc</a></td>
+                            <td>&nbsp;</td>
+                        </tr>
+
+                        <tr>
+                            <td>11</td>
+                            <td><a href="#" target="_blank" class="not-final">Trương Huỳnh Bảo Trang</a></td>
+                            <td>&nbsp;</td>
+                        </tr>
+
+                        <tr>
+                            <td>12</td>
+                            <td><a href="./final-list/DCW_Final_12_Bui-Thi-Tuong-Vi_D2107M1/" target="_blank">Bùi Thị Tường Vi</a></td>
+                            <td>&nbsp;</td>
+                        </tr>
+
+                        <tr>
+                            <td>13</td>
+                            <td><a href="./final-list/DCW_Final_13_Phan-Cong Truc_D2107M1/" target="_blank">Phan Công Trực</a></td>
+                            <td>&nbsp;</td>
+                        </tr>
+
+                        <tr>
+                            <td>14</td>
+                            <td><a href="#" target="_blank" class="not-final">Nguyễn Nhạc Lễ Thi</a></td>
+                            <td>&nbsp;</td>
+                        </tr>
+
+                        <tr>
+                            <td>15</td>
+                            <td><a href="./final-list/DCW_Final_15_Pham-Danh-Tung_D2107M1/" target="_blank">Phạm Danh Tùng</a></td>
+                            <td>&nbsp;</td>
+                        </tr>
+
+                        <tr>
+                            <td>16</td>
+                            <td><a href="#" target="_blank" class="not-final">Hứa Tấn Cường</a></td>
+                            <td>&nbsp;</td>
+                        </tr>
+
+                        <tr>
+                            <td>17</td>
+                            <td><a href="./final-list/DCW_Final_17_Hoang-Trong-Hieu_D2107M1/" target="_blank">Hoàng Trọng Hiếu</a></td>
+                            <td>&nbsp;</td>
+                        </tr>
+
+
+                        <tr>
+                            <td>18</td>
+                            <td><a href="./final-list/DCW_Final_18_Nguyen-Kim_Khanh-D2107M1/" target="_blank">Nguyễn Kim Khánh</a></td>
+                            <td>&nbsp;</td>
+                        </tr>
+
+                        <tr>
+                            <td>19</td>
+                            <td><a href="#" target="_blank" class="not-final">Bùi Thị Phương Thi</a></td>
+                            <td>&nbsp;</td>
+                        </tr>
+
+                        <tr>
+                            <td>20</td>
+                            <td><a href="./final-list/DCW_Final_20_Vo-Ngoc-Bao-Thoa_D2107M1/" target="_blank">Võ Ngọc Bảo Thoa</a></td>
+                            <td>&nbsp;</td>
+                        </tr>
+
+
+                        <tr>
+                            <td>21</td>
+                            <td><a href="#" target="_blank" class="not-final">Cao Xuân Phương</a></td>
+                            <td>&nbsp;</td>
+                        </tr>
+
+
+
+                    </tbody>
+                </table>
+
+            </div>
+
+        </div>
+
+
+
+    </div>
+</body>
+
+</html>

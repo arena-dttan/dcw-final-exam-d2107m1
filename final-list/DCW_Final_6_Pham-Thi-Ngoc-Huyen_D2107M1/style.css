@@ -1,0 +1,75 @@
+html {
+    box-sizing: border-box;
+    width: 100%;
+    height: 80%;
+}
+
+body {
+    width: 100%;
+    height: 80%;
+    background: url("../images/head-bg.webp");
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.2;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+input,
+textarea,
+select,
+button {
+    outline: none;
+}
+
+input {
+    line-height: normal;
+}
+
+label,
+button {
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+#container {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+#logo {
+    float: left;
+}
+
+#logo img {
+    width: 130px;
+    padding: 10px;
+}
+
+#header {
+    background: #0085be;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 2);
+}
+
+#banner img {
+    height: 500px;
+    width: 100%;
+}

@@ -1,0 +1,30 @@
+.tin-tuc-container {
+    padding: 10px;
+}
+.tin-tuc-container h2{
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.tin-tuc-container p{
+    font-size: 14px;
+    
+    color: black;
+    text-align: justify;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.col {
+  display: flex;
+  height: 30%;
+  padding: 8px;
+  flex-direction: column;
+}

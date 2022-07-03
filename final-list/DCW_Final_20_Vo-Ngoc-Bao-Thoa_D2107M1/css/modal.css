@@ -1,0 +1,102 @@
+.fixed-modal-center {
+  position: fixed;
+  width: 70%;
+  height: 70%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* z-index: 10; */
+  background-color: #fff;
+  border-radius: 5px;
+  overflow: auto;
+}
+
+.modal-title {
+  font-size: 20px;
+  font-weight: bold;
+  color: #f8c800;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.modal-title h2 {
+  font-size: 16px;
+  font-weight: bold;
+  color: black;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.modal-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.modal-content ul {
+  display: flex;
+  width: 100%;
+  background-color: transparent;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.modal-content ul li {
+  display: block;
+  border: none;
+  float: none;
+  padding: 10px;
+  font-size: 14px;
+  font-weight: bold;
+  color: black;
+}
+
+.modal-content h2 {
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+}
+
+.img-left {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 5px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(51, 51, 51);
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
