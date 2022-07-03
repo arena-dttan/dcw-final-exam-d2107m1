@@ -170,3 +170,7 @@ p {
 .not-final:hover {
     background-color: blueviolet !important;
 }
+
+.title-large {
+    padding: 25px;
+}
